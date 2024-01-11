@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="upper">
+        <div class="amt">
+          <div class="inputamt">
+            <input type="number" placeholder="Enter Amount" id="amt" />
+            <h1 id="num1"></h1>
+          </div>
+          <div class="btnamt">
+            <button id="btn1" onclick="chance()">Conform</button>
+          </div>
+        </div>
+        <div class="div4">
+          <div class="num">
+            <input
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type="number"
+              maxlength="1"
+              id="in1"
+              class="in"
+            />
+            <input
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type="number"
+              maxlength="1"
+              id="in2"
+              class="in"
+            />
+            <input
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type="number"
+              maxlength="1"
+              id="in3"
+              class="in"
+            />
+            <input
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type="number"
+              maxlength="1"
+              id="in4"
+              class="in"
+            />
+          </div>
+          <div class="db4">
+            <button onclick="gen()" id="btn2">Genrate</button>
+          </div>
+        </div>
+      </div>
+      <div id="mid">
+        <div class="ag-format-container">
+          <div class="ag-lottery-wheel_box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lottery-wheel/images/base.png" class="ag-lottery-wheel_img ag-lottery-wheel">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lottery-wheel/images/numbers.png" class="ag-lottery-wheel_img ag-lottery-wheel_numbers">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lottery-wheel/images/element.png" class="ag-lottery-wheel_img ag-lottery-wheel_el">
+            <div class="ag-lottery-wheel_lights"></div>
+          </div>
+        </div>
+      </div>
+      <div id="lower">
+        <div class="num">
+          <input
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number"
+            maxlength="1"
+            id="in5"
+            class="in"
+          />
+          <input
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number"
+            maxlength="1"
+            id="in6"
+            class="in"
+          />
+          <input
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number"
+            maxlength="1"
+            id="in7"
+            class="in"
+          />
+          <input
+            oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+            type="number"
+            maxlength="1"
+            id="in8"
+            class="in"
+          />
+        </div>
+        <div class="text">
+          <h2>
+            Your Winning Amont
+          </h2>
+          <h2 id="fa">
+            
+          </h2>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
