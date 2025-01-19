@@ -71,7 +71,7 @@ var s = [
     mailId: "mosinbalsing@gmail.com",
     birthDate: "13-03-2004",
     avatar: "https://avatars.githubusercontent.com/u/119176708?v=4",
-    profile:"https://github.com/Mosin-M-B"
+    profile:"https://github.com/Mosinbalsing"
     
   },
 ];

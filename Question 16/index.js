@@ -3,7 +3,7 @@ var login = document.getElementById("login");
 var Name = document.getElementById("name");
 var img = document.getElementById("img");
 
-const url = "https://api.github.com/users/Mosin-M-B";
+const url = "https://api.github.com/users/Mosinbalsing";
 async function add() {
   try {
     const responce = await fetch(url);

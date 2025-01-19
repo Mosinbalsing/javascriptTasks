@@ -11,6 +11,12 @@
 body{
     background-color: #242424;
 }
+.main{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
 .box{
     height: 200px;
     width: 200px;
